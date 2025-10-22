@@ -1,8 +1,9 @@
-import React from 'react'
+import { Button } from '@/components/ui/button'
+
 
 const HomePage = () => {
   return (
-    <>Prostore</>
+    <Button className='mt-2'>Clique me</Button>
   )
 }
 
