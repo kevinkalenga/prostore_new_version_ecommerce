@@ -1,9 +1,13 @@
-import { Button } from '@/components/ui/button'
+import sampleData from "@/db/sample-data"
+import ProductList from "@/components/product/product-list"
 
 
 const HomePage = () => {
+  console.log(sampleData)
   return (
-    <>Prostore</>
+    <>
+      <ProductList data={sampleData.products} title='Newest Arrivals' limit={4} />
+    </>
   )
 }
 
